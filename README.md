@@ -50,12 +50,12 @@ For a more detailed overview, please refer to the [project presentation](https:/
 
 ##  Usage
   
-To run the automation, execute:
+   To run the automation, execute:
   
-  ```bash
-  Copy code
-  python main.py
-  This will:
+     ```bash
+     Copy code
+     python main.py
+     This will:
 
 1. Convert evidence.csv to evidence.json.
 2. Authenticate with JIRA using the provided credentials.

@@ -27,17 +27,18 @@ For a more detailed overview, please refer to the [project presentation](https:/
 - **Risk-Based Due Dates**: Sets ticket due dates according to risk levels (Critical, High, Medium, Low).
 - **Flexible Configuration**: Environment-based configuration for secure API access.
 
- ## Setup
+## Setup
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/ticket-automation.git
    cd ticket-automation
 
-4. **Set Up Environment Variables**:
+2. **Set Up Environment Variables**:
 
-   -**JIRA_EMAIL**: Your JIRA account email.
-   -**JIRA_TOKEN**: Your JIRA API token.
+ - **JIRA_EMAIL**: Your JIRA account email.
+ - **JIRA_TOKEN**: Your JIRA API token.
+     
    Example:
 
     ```bash
@@ -45,21 +46,22 @@ For a more detailed overview, please refer to the [project presentation](https:/
     export JIRA_EMAIL="your-email@example.com"
     export JIRA_TOKEN="your-token"
 
- 5. **Prepare Data Files**: Ensure evidence.csv and assignees.json are present in the project directory.
+ 3. **Prepare Data Files**: Ensure evidence.csv and assignees.json are present in the project directory.
 
 ##  Usage
   
-  To run the automation, execute:
+To run the automation, execute:
   
   ```bash
   Copy code
   python main.py
   This will:
 
-  1. Convert evidence.csv to evidence.json.
-  2. Authenticate with JIRA using the provided credentials.
-  3. Update JIRA tickets based on the information in evidence.json and assignees.json.
+1. Convert evidence.csv to evidence.json.
+2. Authenticate with JIRA using the provided credentials.
+3. Update JIRA tickets based on the information in evidence.json and assignees.json.
 
-##Configuration
-  - evidence.csv: Contains raw data that will be processed and converted into JSON format.
-  - assignees.json: Specifies the users responsible for different types of tasks.
+##  Configuration
+
+- evidence.csv: Contains raw data that will be processed and converted into JSON format.
+- assignees.json: Specifies the users responsible for different types of tasks.

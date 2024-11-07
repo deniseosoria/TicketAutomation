@@ -51,9 +51,9 @@ For a more detailed overview, please refer to the [project presentation](https:/
   
    To run the automation, execute:
   
-     ```bash
-     Copy code
-     python main.py
+   ```bash
+   Copy code
+   python main.py
      
 This will:
 

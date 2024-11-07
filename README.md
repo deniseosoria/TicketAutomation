@@ -9,7 +9,6 @@ This project automates the management and updating of tickets within a JIRA syst
 - [Setup](#setup)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Resources](#resources)
 
 ## Project Overview
 
@@ -55,7 +54,8 @@ For a more detailed overview, please refer to the [project presentation](https:/
      ```bash
      Copy code
      python main.py
-     This will:
+     
+This will:
 
 1. Convert evidence.csv to evidence.json.
 2. Authenticate with JIRA using the provided credentials.
